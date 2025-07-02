@@ -34,3 +34,16 @@ gradle에 추가
 ```
 id("com.google.devtools.ksp") version "2.0.21-1.0.27" apply false
 ```
+
+# For Torang
+```
+root/gradle
+id("com.google.dagger.hilt.android") version "2.46" apply false
+
+app/gradle
+id("kotlin-kapt")
+id("dagger.hilt.android.plugin")
+
+implementation("com.google.dagger:hilt-android:2.46")
+kapt("com.google.dagger:hilt-android-compiler:2.46")
+```
