@@ -1,10 +1,13 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.compose)
+//    alias(libs.plugins.kotlin.compose)
+
+//    id("com.google.devtools.ksp")
+//    id("dagger.hilt.android.plugin")
 }
 
-android {
+/*android {
     namespace = "com.sarang.hilttest"
     compileSdk = 35
 
@@ -39,6 +42,7 @@ android {
     }
 }
 
+/*
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -56,4 +60,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-}
+}*/
